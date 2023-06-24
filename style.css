@@ -1,0 +1,109 @@
+body {
+  background-color: #b4c2c9;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* css for left panel */
+.left-panel {
+  margin: 20px 40px;
+  width: 20%;
+  height: 95vh;
+  background-color: #f1f3f4;
+  color: black;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #bebebf;
+  border-radius: 20px;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+}
+.logo_container {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  gap: 10px;
+  width: 90%;
+}
+
+.left-panel ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.left-panel li {
+  margin-bottom: 10px;
+  padding-left: 15px;
+  width: 95%;
+  height: 35px;
+  list-style: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: capitalize;
+}
+
+.left-panel li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.left-panel li a:hover {
+  background-color: #555;
+  color: white;
+  width: 100%;
+}
+
+/* CSS for content area */
+.content {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.content h2 {
+  color: black;
+  text-align: center;
+  padding-bottom: 10px;
+  width: 90%;
+  padding: 10px;
+  height: 10vh;
+  margin: 20px 20px;
+  margin-left: 100px;
+  background-color: #f1f3f4;
+  border-radius: 10px;
+  border: 2px solid #bebebf;
+  text-transform: capitalize;
+  font-family: "Vollkorn", serif;
+}
+
+.content p {
+  color: #555;
+  width: 90%;
+
+  padding: 10px;
+  height: 75vh;
+  margin-left: 100px;
+  background-color: #f1f3f4;
+  border-radius: 10px;
+  border: 2px solid #bebebf;
+  box-shadow: -1px 20px -6px rgba(0, 0, 0, 0.75);
+}
+.right_panel {
+  width: 75%;
+  height: 90vh;
+}
+
+.heading {
+  text-align: center;
+  margin-top: -830px;
+}
